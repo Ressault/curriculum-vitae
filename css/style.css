@@ -149,6 +149,7 @@ hr {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+
 }
 
 #footer > ul > li > a {
@@ -188,3 +189,6 @@ hr {
           transition: all 0.3s ease-out;
 }
 .css-filter-blur:hover { -webkit-filter: blur(2px); filter: url(#blur-effect-1); }
+svg {
+	display:none;
+}

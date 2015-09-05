@@ -30,6 +30,23 @@ html, body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+/*TRANSITION ENTRE NORMAL & HOVER*/
+.centered,
+.centered2 {
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+      -ms-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+
+}
+/*ANIMATION SCALE AU SURVOL */
+.centered:hover,
+.centered2:hover {
+transform: rotate(0.0deg) scale(1.02);
+  -webkit-transform: rotate(0.0deg) scale(1.02);
+}
+
 .centered2 {
   min-height: 50px;
   margin: 0 auto;
@@ -156,9 +173,18 @@ hr {
 	padding-bottom: 2px;
 }
 
+/*RIEN A VOIR AVEC BOOTSTRAP*/
 .space-vertical {
 	height: 4em;
 }
 
 
-
+/*AJOUT DU BLUR SUR DIV AVEC CLASS .css-filter-blur*/
+.css-filter-blur { 
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+      -ms-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+}
+.css-filter-blur:hover { -webkit-filter: blur(2px); filter: url(#blur-effect-1); }

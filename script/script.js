@@ -9,4 +9,5 @@ function getWidthAndHeight (){
 var winWidth = $(window).width();
 var winHeight = $(window).height();
 $(‘div#wrap’).css({‘width’: winWidth,’height’: winHeight,});
+$(‘p#hello’).css({‘width’: winWidth,’height’: winHeight,});
 }
